@@ -1,4 +1,5 @@
 import GetWeather from "./components/GetWeather";
+import BackgroundImage from "./components/BackgroundImage";
 import "./App.css";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<>
 			<h1>Weather App</h1>
 			<GetWeather />
+			<BackgroundImage />
 		</>
 	);
 }
