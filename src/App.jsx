@@ -7,7 +7,7 @@ function App() {
 		<>
 			<h1>Weather App</h1>
 			<GetWeather />
-			<BackgroundImage />
+			<BackgroundImage weatherData={} />
 		</>
 	);
 }
